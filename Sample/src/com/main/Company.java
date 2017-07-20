@@ -26,6 +26,9 @@ public class Company {
             d.removeEmployee(p);
         }
     }
+    public ArrayList<Person> getEmployees(){
+        return this.employees;
+    }
     public void printAllEmployees() {
         System.out.println(this.companyName + " has " + this.employees.size() + " number of employees. Members are: ");
 
