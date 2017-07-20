@@ -30,7 +30,7 @@ public class Display {
 
        //Check the staff in our company so far
        c.printAllEmployees();
-
+       System.out.println();
        //Add new departments in the company object
        c.createDepartment("Innovation","Software development");
        c.createDepartment("Digital iForms","Networking");
@@ -60,9 +60,10 @@ public class Display {
        d.assignRole(zarha,"Designer");
        //Lets see who belongs in which department
        c.getAllDepartments();
-
+       System.out.println();
        //Lets check if any members are on the bench
        c.getBenchedEmployees();
+       System.out.println();
     }
 
     public static ArrayList<skills> GenerateSkills(){
